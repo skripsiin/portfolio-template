@@ -11,7 +11,7 @@ export default function Hero({ name = 'Your Name', title = 'Senior Product Desig
           I design digital products and build reliable web experiences for enterprise teams.
         </p>
         <div className="hero-actions">
-          <a className="btn primary" href="/projects">View Work</a>
+          <a className="btn primary" href="#projects">View Work</a>
           <a className="btn secondary" href="#contact">Get in Touch</a>
         </div>
       </div>

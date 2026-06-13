@@ -6,8 +6,11 @@ import projects from '../data/projects';
 export default function Home() {
   return (
     <div className="page-home">
-      <Hero />
-      <section className="section section-projects container">
+      <section id="hero">
+        <Hero />
+      </section>
+
+      <section id="projects" className="section section-projects container">
         <div className="section-header">
           <h2>Selected work</h2>
           <p>Recent projects with strong business impact and polished execution.</p>
@@ -19,7 +22,17 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section-contact container">
+      <section id="about" className="section section-about container">
+        <div className="section-header">
+          <h2>About</h2>
+          <p>Short professional bio, experience, skills and specialties.</p>
+        </div>
+        <p>
+          Add your summary here. Mention industry experience, tools, and the value you bring.
+        </p>
+      </section>
+
+      <section id="contact" className="section section-contact container">
         <div className="section-header">
           <h2>Contact</h2>
           <p>Ready to collaborate? Send a message and I’ll get back to you soon.</p>
